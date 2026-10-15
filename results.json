@@ -1,0 +1,34 @@
+{
+  "args": {
+    "data_dir": "data",
+    "artifact": "eog",
+    "epochs": 100,
+    "batch": 64,
+    "lr": 0.001,
+    "stages": 7,
+    "sx": 28,
+    "sa": 6,
+    "beta": 0.5,
+    "gamma_c": 0.05,
+    "gamma_g": 0.01,
+    "kappa_min": 0.4,
+    "seed": 0,
+    "out_dir": "runs/eog",
+    "max_train": 0
+  },
+  "test": {
+    "loss": 0.20590201020240784,
+    "rt_stage": 0.5606371164321899,
+    "rt_refit": 0.7968634963035583,
+    "rs_refit": 0.7282325029373169,
+    "cc_refit": 0.663982629776001,
+    "kappa": 0.4920770525932312,
+    "mu_t": 0.7474744915962219,
+    "flag_rate": 0.19911503791809082,
+    "rt_flagged": 0.8903923034667969,
+    "rt_unflagged": 0.7736104726791382,
+    "spearman_err_vs_1_over_kappa": 0.37363205847431447,
+    "parameters": 524311
+  },
+  "best_val_rrmse_t_refit": 0.7704641819000244
+}
